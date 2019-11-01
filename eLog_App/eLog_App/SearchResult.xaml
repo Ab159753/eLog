@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="eLog_App.SearchResult">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="8*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="1*" /> 
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions> 
+                
+                <ListView x:Name="listResultView" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" RowHeight="70" ItemSelected="LogResult_ItemSelected" >
+                    <ListView.Header>
+                        <Label Text="Search Result"  BackgroundColor="Blue" />
+                    </ListView.Header>
+                    <ListView.ItemTemplate >
+                    <DataTemplate>
+                      <ViewCell>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />        
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="1*" />        
+                            </Grid.ColumnDefinitions> 
+                            <Label Grid.Row="0" Grid.Column="0" Text="{Binding LogId}"  />
+                            <Label Grid.Row="0" Grid.Column="1" Text="{Binding Status}"  />
+                            <!--<Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Text="Title: {Binding Title}" MaxLines="1" /> -->
+                            <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Text="{Binding Title}" MaxLines="1" />                
+                        </Grid>         
+                      </ViewCell>       
+                    </DataTemplate>    
+                </ListView.ItemTemplate>
+                </ListView>
+            </Grid>    
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="eLog_App.Attachment" xmlns:local="clr-namespace:eLog_App">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">        
+            <TableView x:Name="tableView" Intent="Form" HasUnevenRows="true">                        
+                <TableRoot>                
+                    <TableSection Title="Attachment List">                    
+                        <ViewCell>
+                            <StackLayout x:Name="AttachmentList" />    
+                        </ViewCell>    
+                    </TableSection>            
+                </TableRoot>        
+            </TableView> 
+            <StackLayout Orientation="Horizontal" > 
+                <Button Text="Upload" HorizontalOptions="Start" Clicked="uploadFile"/>
+                <Label />
+                <Image x:Name="selectedImage" />
+            </StackLayout>
+            <Button Text="Download" HorizontalOptions="End" Clicked="downloadFile"/> 
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

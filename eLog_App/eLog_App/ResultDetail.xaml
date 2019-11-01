@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="eLog_App.ResultDetail"
+             xmlns:local="clr-namespace:eLog_App">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="EditBtn" Text="Edit" Clicked="EditMode_Handle"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <TableView Intent="Form" x:Name="resultView" HasUnevenRows="true" RowHeight="-1" HeightRequest="-2">
+                <TableSection Title="Basic Info" x:Name="Info">
+                    <EntryCell x:Name="_LogNo" Label="Log No:" Text="102020" IsEnabled="false"/>
+                    <EntryCell x:Name="_LogTitle" Label="Log Title:" Text="eLog cannot work in a specific situation" IsEnabled="false"/>
+                    <EntryCell x:Name="_Priority" Label="Priority:" Text="High" IsEnabled="false"/>
+                    <EntryCell x:Name="_AssignTo" Label="Assign To:" Text="David" IsEnabled="false"/>
+                    <EntryCell x:Name="_Status" Label="Status:" Text="New" IsEnabled="false"/>  
+                    <SwitchCell x:Name="_DetailBtn" Text="Details?" OnChanged="detalsShow_Selected" />
+                </TableSection>
+                <TableSection Title="Comment" x:Name="Comment" />
+                <TableSection Title="Attachment" x:Name="Attachment" />
+            </TableView>
+            <TableView Intent="Form" x:Name="resultViewDetail" HasUnevenRows="true" RowHeight="-1" HeightRequest="-2" IsVisible="false">
+            <TableSection Title="Basic Info" x:Name="InfoDetail">
+                    <EntryCell x:Name="LogNo" Label="Log No:" Text="102020" IsEnabled="false"/>
+                    <EntryCell x:Name="LogTitle" Label="Log Title:" Text="eLog cannot work in a specific situation" IsEnabled="false"/>
+                    <EntryCell x:Name="Priority" Label="Priority:" Text="High" IsEnabled="false"/>
+                    <EntryCell x:Name="AssignTo" Label="Assign To:" Text="David" IsEnabled="false"/>
+                    <EntryCell x:Name="Status" Label="Status:" Text="New" IsEnabled="false"/>  
+                    <SwitchCell x:Name="DetailBtn" Text="Details?" OnChanged="detalsShow_Selected" On="true"/>
+                </TableSection>
+                <TableSection Title="Details" x:Name="Details" >
+                    <EntryCell x:Name="ParentLog" Label="Parent Log:" Text="" IsEnabled="false" />  
+                    <EntryCell x:Name="Organization" Label="Organization" Text="ISD" IsEnabled="false"/>
+                    <EntryCell x:Name="Project" Label="Project:" Text="eLog" IsEnabled="false"/>
+                    <EntryCell x:Name="Ver" Label="Ver:" Text="1" IsEnabled="false"/>
+                    <EntryCell x:Name="FunctionCode" Label="Function Code:" Text="" IsEnabled="false"/>
+                    <EntryCell x:Name="IssuedBy" Label="Issued By:" Text="David" IsEnabled="false"/>
+                    <EntryCell x:Name="IssuedDate" Label="Issued Date:" IsEnabled="false"/>
+                    <EntryCell x:Name="LogType" Label="Log Type:" Text="SIT" IsEnabled="false"/>
+                    <EntryCell x:Name="IncidentType" Label="Incident Type:" Text="SIT" IsEnabled="false"/>
+                    <EntryCell x:Name="LogEnvironment" Label="Log Environment:" Text="" IsEnabled="false"/>
+                    <EntryCell x:Name="UserRef" Label="User Ref:" Text="SIT" IsEnabled="false"/>
+                </TableSection>
+                <TableSection Title="Comment" x:Name="CommentDetail" />
+                <TableSection Title="Attachment" x:Name="AttachmentDetail" />
+            </TableView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

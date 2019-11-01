@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="eLog_App.CommentPage" xmlns:local="clr-namespace:eLog_App">
+    <ContentPage.Content>
+        <StackLayout>        
+            <TableView x:Name="tableView" Intent="Form" HasUnevenRows="true">                        
+                <TableRoot>                
+                    <TableSection Title="Comment Management">                    
+                        <local:PickerCell x:Name="Title" Label="Title:" Title="Choose Title" >
+                            <x:String>Log Desc</x:String> 
+                            <x:String>Reply</x:String>
+                            <x:String>Remark</x:String>
+                        </local:PickerCell>
+                        <EntryCell x:Name="UserIssued" Label="User Issued:" IsEnabled="false" Text="David"/> 
+                        <TextCell x:Name="RemarkLabel" Text="Remark:" />
+                        <ViewCell>
+                            <StackLayout>    
+                                <Editor x:Name="Remark" HeightRequest="500"/>
+                            </StackLayout>
+                        </ViewCell>    
+                    </TableSection>            
+                </TableRoot>        
+            </TableView>                
+            <Button x:Name="BtnAddComment" Text="Add" HorizontalOptions="Center" Clicked="createRemark"/> 
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

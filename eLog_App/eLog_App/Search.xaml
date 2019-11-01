@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="eLog_App.Search" xmlns:local="clr-namespace:eLog_App">
+    <ContentPage.Content>        
+        <StackLayout>        
+            <TableView x:Name="tableView" Intent="Settings">                        
+                <TableRoot Title="Data Form">                
+                    <TableSection Title="Log Searching">                    
+                        <EntryCell x:Name="logNo" Label="Log No:" Placeholder="Enter log number" Keyboard="Numeric" /> 
+                        <local:PickerCell Label="Project:" Title="Choose project" >
+                            <x:String>ECT EDB</x:String> 
+                            <x:String>ECT NBIS</x:String>
+                            <x:String>eLog</x:String>
+                        </local:PickerCell>
+                        <EntryCell Label="Title:" Placeholder="Enter title" Keyboard="Text" /> 
+                        <EntryCell Label="User Ref:" Placeholder="Enter user ref" Keyboard="Text" /> 
+                        <local:PickerCell Label="Assign To:" Title="Choose assign to" >
+                            <x:String>David</x:String> 
+                            <x:String>Mary</x:String>
+                            <x:String>Tom</x:String>
+                        </local:PickerCell>
+                        <EntryCell Label="Target Ver:" Text="{Binding Age}" Placeholder="Enter taget version" Keyboard="Text" />
+                        <local:PickerCell Label="Target Rel:" Title="Choose target release" >
+                            <x:String>EDB-201905-01</x:String> 
+                            <x:String>NBISIV-3-0-62</x:String>
+                            <x:String>ELOG-V1</x:String>
+                        </local:PickerCell> 
+                        
+                        <EntryCell Label="Status:" Text="{Binding Age}" Placeholder="Enter status" Keyboard="Text" />   
+                    </TableSection>            
+                </TableRoot>        
+            </TableView>                
+            <Label x:Name="summaryLabel" VerticalOptions="CenterAndExpand" />                
+            <Button Text="Submit" HorizontalOptions="Center" Clicked="btn_Search"/> 
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

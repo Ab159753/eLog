@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="eLog_App.Login">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--<Frame HeightRequest="30" Margin="0,0,0,20" BorderColor="Transparent" BackgroundColor="Transparent"/>-->
+            <Label Text="Login Name:" HorizontalOptions="Start" />
+            <Entry x:Name="username"/>
+            
+            <Label Text="Password:" HorizontalOptions="Start" />
+            <Entry x:Name="password" WidthRequest="100" IsPassword="true"/>
+            
+            <Button Text="Login" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="btn_Login"/>
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
