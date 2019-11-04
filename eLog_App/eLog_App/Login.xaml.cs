@@ -32,6 +32,7 @@ namespace eLog_App
                 Navigation.PushAsync(new Search(posts));
             }else {
                 DisplayAlert("Login Fail","Username or Paswword is invalid.","OK");
+                DisplayAlert("Login Fail", "Username or Paswword is invalid.", "OK");
             }
         }
 

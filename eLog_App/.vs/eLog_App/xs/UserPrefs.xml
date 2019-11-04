@@ -1,12 +1,19 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{F5F3786A-342D-48BA-AB7B-F3D285F668A1}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="eLog_App 狀態">
     <Files>
+      <File FileName="eLog_App/Login.xaml.cs" Line="35" Column="86" />
       <File FileName="eLog_App 狀態" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="eLog_App" expanded="True" selected="True" />
+          <Node name="eLog_App" expanded="True">
+            <Node name="eLog_App" expanded="True">
+              <Node name="Login.xaml" expanded="True">
+                <Node name="Login.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
