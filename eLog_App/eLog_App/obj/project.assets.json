@@ -1306,11 +1306,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/thomastse/Projects/eLog_App/eLog_App/eLog_App.csproj",
+      "projectUniqueName": "/Users/thomastse/Projects/Ab159753/eLog/eLog_App/eLog_App/eLog_App.csproj",
       "projectName": "eLog_App",
-      "projectPath": "/Users/thomastse/Projects/eLog_App/eLog_App/eLog_App.csproj",
+      "projectPath": "/Users/thomastse/Projects/Ab159753/eLog/eLog_App/eLog_App/eLog_App.csproj",
       "packagesPath": "/Users/thomastse/.nuget/packages/",
-      "outputPath": "/Users/thomastse/Projects/eLog_App/eLog_App/obj/",
+      "outputPath": "/Users/thomastse/Projects/Ab159753/eLog/eLog_App/eLog_App/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

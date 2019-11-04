@@ -1555,11 +1555,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/thomastse/Projects/eLog_App/eLog_App.Android/eLog_App.Android.csproj",
+      "projectUniqueName": "/Users/thomastse/Projects/Ab159753/eLog/eLog_App/eLog_App.Android/eLog_App.Android.csproj",
       "projectName": "eLog_App.Android",
-      "projectPath": "/Users/thomastse/Projects/eLog_App/eLog_App.Android/eLog_App.Android.csproj",
+      "projectPath": "/Users/thomastse/Projects/Ab159753/eLog/eLog_App/eLog_App.Android/eLog_App.Android.csproj",
       "packagesPath": "/Users/thomastse/.nuget/packages/",
-      "outputPath": "/Users/thomastse/Projects/eLog_App/eLog_App.Android/obj/",
+      "outputPath": "/Users/thomastse/Projects/Ab159753/eLog/eLog_App/eLog_App.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1574,8 +1574,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/thomastse/Projects/eLog_App/eLog_App/eLog_App.csproj": {
-              "projectPath": "/Users/thomastse/Projects/eLog_App/eLog_App/eLog_App.csproj"
+            "/Users/thomastse/Projects/Ab159753/eLog/eLog_App/eLog_App/eLog_App.csproj": {
+              "projectPath": "/Users/thomastse/Projects/Ab159753/eLog/eLog_App/eLog_App/eLog_App.csproj"
             }
           }
         }

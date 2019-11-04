@@ -1,5 +1,8 @@
-﻿<Properties StartupConfiguration="{F5F3786A-342D-48BA-AB7B-F3D285F668A1}|Default">
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{F5F3786A-342D-48BA-AB7B-F3D285F668A1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="eLog_App 狀態">
+    <Files>
+      <File FileName="eLog_App 狀態" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -10,7 +13,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.ItemProperties.eLog__App.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.Light.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.my_device" />
+  <MonoDevelop.Ide.ItemProperties.eLog__App.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -1507,11 +1507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/thomastse/Projects/eLog_App/eLog_App.iOS/eLog_App.iOS.csproj",
+      "projectUniqueName": "/Users/thomastse/Projects/Ab159753/eLog/eLog_App/eLog_App.iOS/eLog_App.iOS.csproj",
       "projectName": "eLog_App.iOS",
-      "projectPath": "/Users/thomastse/Projects/eLog_App/eLog_App.iOS/eLog_App.iOS.csproj",
+      "projectPath": "/Users/thomastse/Projects/Ab159753/eLog/eLog_App/eLog_App.iOS/eLog_App.iOS.csproj",
       "packagesPath": "/Users/thomastse/.nuget/packages/",
-      "outputPath": "/Users/thomastse/Projects/eLog_App/eLog_App.iOS/obj/",
+      "outputPath": "/Users/thomastse/Projects/Ab159753/eLog/eLog_App/eLog_App.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1526,8 +1526,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/thomastse/Projects/eLog_App/eLog_App/eLog_App.csproj": {
-              "projectPath": "/Users/thomastse/Projects/eLog_App/eLog_App/eLog_App.csproj"
+            "/Users/thomastse/Projects/Ab159753/eLog/eLog_App/eLog_App/eLog_App.csproj": {
+              "projectPath": "/Users/thomastse/Projects/Ab159753/eLog/eLog_App/eLog_App/eLog_App.csproj"
             }
           }
         }
